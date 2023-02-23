@@ -12,7 +12,6 @@ class RBM(val N: Int, val n_visible: Int, val n_hidden: Int,
   var hbias: Array[Double] = new Array[Double](n_hidden)
   var vbias: Array[Double] = new Array[Double](n_visible)
 
-
   if(rng == null) rng = new Random(1234)
 
   if(_W == null) {
